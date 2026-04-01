@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <div class="header">
+    <div class="logo"></div>
+    <nav class="menu">
+      <a href="#">Home</a>
+      <a href="#">Markets</a>
+      <a href="#">Predictions</a>
+      <a href="#">About</a>
+  </nav>
+  <div class="right">
+    <input type="text" placeholder="Search stocks..." class="search" />
+    <button class="login-btn">Login</button>
+  </div>
+  </div>
+  <div class="main">
+    <div class="main_left">
+      <h1>Track Stocks Smartly</h1>
+      <p>Search any stock and get real-time insights instantly.</p>
+      <div class="search">
+        <input type="text" id="input" placeholder="Enter stock (e.g. AAPL)" />
+        <button onclick="searchStock()">Search</button>
+      </div>
+    </div>
+    <div class="main_right">
+      <img src="https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3" alt="stock image">
+    </div>
+  </div>
+  <section class="results">
+    <h2 id="title"></h2>
+    <p id="loading" class="loading"></p>
+    <div id="display" class="grid"></div>
+  </section>
+  <script src="./main.js"></script>
+</body>
+</html>
