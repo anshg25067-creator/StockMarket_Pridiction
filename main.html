@@ -8,22 +8,22 @@
 </head>
 <body>
   <div class="header">
-    <div class="logo"></div>
+    <div class="logo">StockPred</div>
     <nav class="menu">
-      <a href="#">Home</a>
-      <a href="#">Markets</a>
+      <a href="./main.html">Home</a>
+      <a href="./stocks.html">BigMove</a>
       <a href="#">Predictions</a>
       <a href="#">About</a>
   </nav>
   <div class="right">
-    <input type="text" placeholder="Search stocks..." class="search" />
+    <button id="theme-toggle" onclick="toggleTheme()">Mode</button>
     <button class="login-btn">Login</button>
   </div>
   </div>
   <div class="main">
     <div class="main_left">
       <h1>Track Stocks Smartly</h1>
-      <p>Search any stock and get real-time insights instantly.</p>
+      <p>Search any stock and get real-time data instantly.</p>
       <div class="search">
         <input type="text" id="input" placeholder="Enter stock (e.g. AAPL)" />
         <button onclick="searchStock()">Search</button>

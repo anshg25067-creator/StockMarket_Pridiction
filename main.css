@@ -194,3 +194,20 @@ body {
     display: none;
   }
 }
+
+
+
+#theme-toggle {
+  padding: 8px 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: #f4c302;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+
+.light {
+  background: white;
+  color: black;
+}
