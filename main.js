@@ -11,7 +11,6 @@ async function searchStock() {
   const title = document.getElementById("title");
 
   container.innerHTML = "";
-  loading.innerText = "Loading...";
   title.innerText = symbol;
 
   const url = `https://api.marketstack.com/v1/eod?access_key=57d1f86de6a181fb179b6c0e6c408f97&symbols=${symbol}`;

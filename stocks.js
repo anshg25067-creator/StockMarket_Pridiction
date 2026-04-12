@@ -38,9 +38,9 @@ async function searchStock() {
 
   
       if (stock.diff > 0) {
-        div.style.backgroundColor = "#009c56"; 
+        div.style.backgroundColor = "#69c39b"; 
       } else {
-        div.style.backgroundColor = "#ac0715"; 
+        div.style.backgroundColor = "#c25962"; 
       }
 
       div.innerHTML = `
